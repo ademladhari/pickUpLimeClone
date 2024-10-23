@@ -39,7 +39,7 @@ function Navbar() {
       className="h-[10%] w-full flex flex-row justify-around mx-auto top-0 z-30 fixed text-[2.5vh] cotrisFont bg-white/30 backdrop-blur-lg"
       style={navbarStyle}
     >
-      <div className="flex flex-row my-auto gap-3 text-sm">
+      <div className="flex flex-row my-auto gap-3 text-xl">
         <IoIosSearch className="my-auto" />
         <Link className='text-black' to="/recipe"><p>Recipes</p></Link>
         <Link className='text-black' to="/articles"><p>Articles</p></Link>
@@ -51,7 +51,7 @@ function Navbar() {
 
      <Link className='h-[60%] my-auto' to=""><img className="  h-full" src="https://www.pickuplimes.com/static/images/logo/pul_logo_main_flat_987_247.9cf5ed7b1374.png" alt="logo" />
      </Link> 
-      <div className="flex flex-row gap-3 my-auto  text-sm">
+      <div className="flex flex-row gap-3 my-auto  text-xl">
         <p>App</p>
         <Link className='text-black' to="/aboutus"><p>About</p></Link>
         <MdOutlineMail className="my-auto" />

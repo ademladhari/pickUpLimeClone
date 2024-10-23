@@ -30,7 +30,7 @@ const Index = () => {
     setCurrentIndex(newIndex);
   };
   return (
-    <div className="slide-container w-full relative cotrisFont">
+    <div className="slide-container w-full relative cotrisFont mt-[10vh]">
       <Fade duration={2000} transitionDuration={700} indicators={true} arrows={false}  defaultIndex={0}   onChange={()=>handleChange} // Track the current slide index
       >
         {slideImages.map((slideImage, index) => (
