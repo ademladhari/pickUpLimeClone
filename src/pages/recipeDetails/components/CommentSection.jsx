@@ -2,7 +2,7 @@ import React from 'react';
 
 const StarRating = ({ rating }) => {
   return (
-    <div className="flex text-yellow-400 ml-[10%]  text-xs">
+    <div className="flex text-yellow-400 ml-[10%]  text-base">
       {[...Array(5)].map((_, i) => (
         <span key={i}>{i < rating ? '★' : '☆'}</span>
       ))}
@@ -15,13 +15,13 @@ const Comment = ({ author, date, rating, content }) => {
     <div className="mb-6 pb-6 border-b-2 border-gray-200">
       <div className="flex items-center  mb-2">
         <div className="flex items-center">
-          <span className="text-[#50684B] font-medium mr-2 text-sm">{author}</span>
-          <span className="text-gray-500 text-xs">- {date}</span>
+          <span className="text-[#50684B] font-medium mr-2 text-base">{author}</span>
+          <span className="text-gray-500 text-base">- {date}</span>
         </div>
         <StarRating  rating={rating} />
       </div>
-      <p className="text-gray-700 mb-3 text-sm">{content}</p>
-      <button className="bg-[#B85C38] text-white px-2 py-0.5 rounded text-xs hover:bg-[#9d4e30] transition-colors duration-300">
+      <p className="text-gray-700 mb-3 text-base">{content}</p>
+      <button className="bg-[#B85C38] text-white px-2 py-0.5 rounded text-base hover:bg-[#9d4e30] transition-colors duration-300">
         Reply ↗
       </button>
     </div>

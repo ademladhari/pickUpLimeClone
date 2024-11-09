@@ -11,13 +11,13 @@ const kitchenStaples = [
 
 const KitchenStaples = () => {
   return (
-    <div className=" mx-auto my-8">
+    <div className=" mx-auto  mt-10">
       <h2 className="text-2xl font-thin text-left cotrisFont mb-6">Kitchen staples</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {kitchenStaples.map((item, index) => (
           <div key={index} className="flex flex-col items-center">
             <img src={item.image} alt={item.label} className="w-16 h-16 rounded-lg object-fit mb-2" />
-            <span className="text-center cotrisFont text-xs">{item.label}</span>
+            <span className="text-center cotrisFont text-base">{item.label}</span>
           </div>
         ))}
       </div>

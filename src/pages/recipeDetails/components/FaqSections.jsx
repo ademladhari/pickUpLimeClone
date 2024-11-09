@@ -53,7 +53,7 @@ function FAQSection() {
             )}
           </button>
           {openIndex === index && (
-            <div className="bg-[#EAEDE8] px-6 py-4 text-sm text-gray-600">
+            <div className="bg-[#EAEDE8] px-6 py-4 text-base text-gray-600">
               <p>{faq.answer}</p>
             </div>
           )}

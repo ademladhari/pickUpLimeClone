@@ -7,6 +7,11 @@ const relatedContent = [
     { title: 'Cooking Skills I Wish I Learned Sooner', subtitle: '', image: 'https://img.youtube.com/vi/hcOycPWR7is/maxresdefault.jpg' },
     { title: 'The Best Vegan ICED COFFEE Recipes', subtitle: '', image: 'https://img.youtube.com/vi/S1OJ3U2T4PY/maxresdefault.jpg' },
     { title: 'Vegan Snacks', subtitle: 'easy + healthy (meal prep)', image: 'https://img.youtube.com/vi/0e3M5Jyh6Z8/maxresdefault.jpg' },
+    { title: 'Vegan Snacks', subtitle: 'easy + healthy (meal prep)', image: 'https://img.youtube.com/vi/0e3M5Jyh6Z8/maxresdefault.jpg' },
+    { title: 'Budget Meals Under €2 / $2', subtitle: 'vegan curries', image: 'https://img.youtube.com/vi/_ME1dEXcT_I/maxresdefault.jpg' },
+    { title: 'Cooking Skills I Wish I Learned Sooner', subtitle: '', image: 'https://img.youtube.com/vi/hcOycPWR7is/maxresdefault.jpg' },
+    { title: 'The Best Vegan ICED COFFEE Recipes', subtitle: '', image: 'https://img.youtube.com/vi/S1OJ3U2T4PY/maxresdefault.jpg' },
+
   ];
 
 const RelatedContent = () => {
@@ -29,7 +34,7 @@ const RelatedContent = () => {
   const displayedImages = relatedContent.slice(startIndex, startIndex + imagesPerPage);
 
   return (
-    <div className="flex flex-col relative cotrisFont  w-full">
+    <div className="flex flex-col relative cotrisFont   w-full">
       
       <div className="w-full relative flex items-center">
         <div className=" w-full mx-auto grid grid-cols-5  gap-3 overflow-hidden">
@@ -38,8 +43,8 @@ const RelatedContent = () => {
              <a href={`https://www.youtube.com/watch?v=${item.videoId}`} target="_blank" rel="noopener noreferrer">
   <img src={item.image} alt={item.title}                 className="lg:h-32 h-24  rounded-xl object-cover" />
 </a>
-              <p className="text-left mt-2 text-xs  font-medium">{item.title}</p>
-              {item.subtitle && <p className="text-left  text-[0.6rem]  text-gray-600">{item.subtitle}</p>}
+              <p className="text-left mt-2 text-base  font-medium">{item.title}</p>
+              {item.subtitle && <p className="text-left  text-[0.8rem]  text-gray-600">{item.subtitle}</p>}
             </div>
           ))}
         </div>

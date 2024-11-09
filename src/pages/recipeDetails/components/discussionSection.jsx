@@ -8,7 +8,7 @@ const DiscussionAndRating = () => {
     <div className="max-w-3xl mx-auto p-6 cotrisFont ">
       <h1 className="text-4xl  font-light mb-6">Discussion & Rating</h1>
       
-      <div className="space-y-4 text-xs">
+      <div className="space-y-4 text-base">
         <textarea
           className="w-full h-48 p-2 border  rounded-lg resize-none focus:outline-none ring-1 ring-[#50684B]"
           placeholder="Leave your comment here!"
@@ -31,7 +31,7 @@ const DiscussionAndRating = () => {
        </div>
        <p className='text-center text-base' >Rate this post</p>
         <div className="text-center">
-          <button className="px-3 py-1 bg-[#50684B] text-white text-sm rounded-lg hover:bg-green-600 transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50">
+          <button className="px-3 py-1 bg-[#50684B] text-white text-base rounded-lg hover:bg-green-600 transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50">
             Submit ↓
           </button>
         </div>

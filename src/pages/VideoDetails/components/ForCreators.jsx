@@ -36,7 +36,7 @@ const KitchenStaples = () => {
           {kitchenStaples.slice(currentIndex, currentIndex + itemsPerPage).map((item, index) => (
             <div key={index} className="flex flex-col items-center">
               <img src={item.image} alt={item.label} className="w-16 h-16 rounded-lg object-fit mb-2" />
-              <span className="text-center cotrisFont text-xs">{item.label}</span>
+              <span className="text-center cotrisFont text-base">{item.label}</span>
             </div>
           ))}
         </div>

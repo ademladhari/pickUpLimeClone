@@ -3,7 +3,7 @@ import ivy from "../../../assets/ivyy.png";
 
 function AppSection() {
   return (
-    <div className='h-fit relative w-[59%] bg-[#E8EDD5] mx-auto cotrisFont container'>
+    <div className='h-fit relative md:mt-[55%] lg:mt-4 w-[59%] bg-[#E8EDD5] mx-auto cotrisFont container'>
       {/* Decorative Ivy Images */}
       <img className='right-0 absolute max-h-[20vh] w-[4vw]' src={ivy} alt="decorative plant illustration right" />
       <img className='left-0 absolute max-h-[20vh] w-[4vw]' src={ivy} alt="decorative plant illustration left" />
@@ -13,10 +13,10 @@ function AppSection() {
         {/* Left Section - Text & Buttons */}
         <div className="flex flex-col items-center justify-center py-4">
           {/* Title */}
-          <h1 className="text-xs sm:text-xl font-light text-gray-800 mb-1 sm:mb-2">
+          <h1 className="text-base sm:text-xl font-light text-gray-800 mb-1 sm:mb-2">
             Start your health journey today
           </h1>
-          <p className="text-xs sm:text-md text-gray-600 mb-3 sm:mb-4">
+          <p className="text-base sm:text-md text-gray-600 mb-3 sm:mb-4">
             and claim your 7 day free trial!
           </p>
 

@@ -30,13 +30,13 @@ function Index() {
 
         {/* Intro Paragraph */}
         <div className='inline-flex'>
-        <p className="text-xs italic w-[75%] mb-4">
+        <p className="text-base italic w-[75%] mb-4">
         Many of us have faced the frustration of buying ingredients with high hopes, only to watch them go to waste. In this article, we explore strategies to give our food a second chance, and 7 tips to help us reduce food waste like a pro.
 
         </p>
 
         {/* Date and Subtitle */}
-        <div className="text-gray-500 text-xs text-center mb-8">22 Apr 2024</div>
+        <div className="text-gray-500 text-base text-center mb-8">22 Apr 2024</div>
         </div>
 
         {/* Section Title */}
@@ -44,7 +44,7 @@ function Index() {
         <h2 className="text-xl mt-3 mb-4">Food waste in brief</h2>
 
         {/* Main Content */}
-        <p className="text-xs leading-8">
+        <p className="text-base leading-8">
           We've all been there – freshly stocked with delicious ingredients, only to 
           find them spoiling before we know it. It's disheartening, especially when it's 
           <span className="underline"> estimated </span> that one-third of the world's food for 
@@ -54,25 +54,25 @@ function Index() {
           we can minimize waste and maximize the potential of our food.
         </p>
     <div className=" mx-auto  py-8">
-      <h2 className="text-sm font-semibold text-[#6A7E66] mb-4">The impact of reducing food waste on the environment</h2>
+      <h2 className="text-base font-semibold text-[#6A7E66] mb-4">The impact of reducing food waste on the environment</h2>
       
-      <p className="text-xs mb-4">
+      <p className="text-base mb-4">
         Reducing food waste isn't just about saving money or getting the most out of our groceries – it's also about making a positive impact on the environment. While it's easy to feel like a small piece in the climate crisis, household waste is the largest contributor to food waste. If we work together to reduce our food waste over time, we can help lessen the demand for food production. It also reduces the amount of waste going to landfills, which contributes to methane production.
       </p>
       
       <div className="bg-orange-50 p-4 mb-6 rounded-lg">
-        <p className="text-xs italic">
+        <p className="text-base italic">
           Methane is a gas that contributes to climate change and is produced when organic matter, like food waste, breaks down without oxygen. Food waste generates methane in landfills where it's often buried under layers of other waste.
         </p>
       </div>
       
-      <h2 className="text-sm font-semibold text-[#6A7E66] mb-4">The science behind spoilage</h2>
+      <h2 className="text-base font-semibold text-[#6A7E66] mb-4">The science behind spoilage</h2>
       
-      <p className="text-xs mb-4">
+      <p className="text-base mb-4">
         When our food starts to look, feel, smell, or taste different from its fresh state, it's a sign of spoilage. A few factors are central to these changes:
       </p>
       
-      <ul className="list-disc list-inside text-xs space-y-2 ml-4">
+      <ul className="list-disc list-inside text-base space-y-2 ml-4">
         <li>
           <span className="font-semibold">Oxygen:</span> exposure to oxygen allows harmful bacteria to grow faster. A process called oxidation is a chemical reaction responsible for undesirable changes in the colour, flavour, and nutrition profile of foods.
         </li>

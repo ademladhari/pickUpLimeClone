@@ -6,22 +6,24 @@ const RecipeCard = ({ image, title, time, tags }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden mx-auto w-[90%]  bg-white">
       <div className="aspect-[2/3] w-[60%] mx-auto lg:w-full relative overflow-hidden rounded-xl">
-      
+      <a href='/recipeDetails'>
       <img 
+      
     className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105 brightness-105 filter contrast-125" 
     src={image} 
     alt={title} 
   />
+  
   <div className="absolute inset-0 bg-gradient-to-l from-black to-transparent opacity-20"></div>
   <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-20"></div> 
-  
+  </a>
   </div>
 
       <div className=" py-4  text-center lg:text-left cotrisFont  text-[3vh]">
         <div className=" text-lg mb-2">{title}</div>
         <div className="flex flex-wrap mt-2 mx-auto">
           {/* Time Tag */} 
-          <span className="inline-block bg-[#B04C35] rounded-md h-fit px-2 py-0.5 text-[0.5rem] font-semibold text-white mr-1 ">
+          <span className="inline-block bg-[#B04C35] rounded-md h-fit px-2 py-0.5 text-[0.8rem] font-semibold text-white mr-1 ">
             <FaClock className="inline-block mr-1" />
             {time}
           </span>
@@ -29,7 +31,7 @@ const RecipeCard = ({ image, title, time, tags }) => {
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="inline-block bg-[#50684B] rounded-md px-2 h-fit py-0.5 text-[0.5rem] font-semibold text-white mr-1 mb-1 "
+              className="inline-block bg-[#50684B] rounded-md px-2 h-fit py-0.5 text-[0.8rem] font-semibold text-white mr-1 mb-1 "
             >
               {tag}
             </span>

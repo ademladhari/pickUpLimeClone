@@ -53,16 +53,16 @@ const Index = () => {
         <RelatedContent />
         <div className="flex flex-col sticky self-start w-fit   top-20  mr-6">
           
-  <a href="#" className="text-gray-600 text-sm absolute right-9 top-1 hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base absolute right-9 top-1 hover:text-gray-800 py-2">
     <FaFacebookF className="w-4 h-4" />
   </a>
-  <a href="#" className="text-gray-600 text-sm absolute top-9 right-9 hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base absolute top-9 right-9 hover:text-gray-800 py-2">
     <FaPinterestP className="w-4 h-4" />
   </a>
-  <a href="#" className="text-gray-600 text-sm absolute top-16 right-9 hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base absolute top-16 right-9 hover:text-gray-800 py-2">
     <FaEnvelope className="w-4 h-4" />
   </a>
-  <a href="#" className="text-gray-600 text-sm absolute top-24 right-9 hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base absolute top-24 right-9 hover:text-gray-800 py-2">
     <FaPrint className="w-4 h-4" />
   </a>
 
@@ -73,7 +73,9 @@ const Index = () => {
        
         <FeaturedRecipe>
         </FeaturedRecipe>
-        <KitchenStaples></KitchenStaples>
+        <div className='pt-16'>
+        <KitchenStaples ></KitchenStaples>
+        </div>
         <ForCreators></ForCreators>
         <Footer></Footer>
 

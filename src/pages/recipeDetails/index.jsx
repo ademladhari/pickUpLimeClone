@@ -21,11 +21,11 @@ const time= '35 min'
     <>
 <div className="flex flex-col cotrisFont lg:flex-row items-center justify-center p-8 lg:p-16 space-y-8 lg:space-y-0 lg:space-x-8 w-full h-screen mx-auto mt-[10vh]">
 {/* Left Section - Image */}
-<div   className='relative'  style={{ width: '350px', height: '550px' }}>
+<div   className='relative rounded-3xl'  style={{ width: '450px', height: '650px' }}>
 <img
   src="https://cdn.pickuplimes.com/cache/03/b0/03b0f6d96f4147799043ba508ae5145a.jpg"
   alt="Chocolate Chip Cookies"
-  className="rounded-md brightness-105 filter h-full contrast-125 "
+  className="rounded-md brightness-105 filter h-full w-full  contrast-125 "
 
 />
   <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-20"></div> {/* Right Gradient */}
@@ -40,7 +40,7 @@ const time= '35 min'
         </h1>
 
         {/* Description */}
-        <p className="text-xs leading-relaxed mb-2 ">
+        <p className="text-base leading-relaxed mb-2 ">
         My definition of the perfect chocolate chip cookie is one with a crispy outside, a chewy, soft center, and plenty of chocolate in every bite. This vegan cookie recipe delivers exactly that! After testing dozens of versions, we’ve perfected this eggless and dairy-free treat. It’s easy to make and gives you the best of both worlds: a satisfying crunch with a melt-in-your-mouth texture. Perfect for when you're craving something sweet, these cookies deliver bakery-quality results every time.        </p>
 
         {/* Labels */}
@@ -60,38 +60,38 @@ const time= '35 min'
         {/* Time and Serving */}
         <div className="flex justify-between items-center coltrisFont mb-6 space-x-4">
           <div className="text-center">
-            <h3 className="text-sm font-normal">Cookies</h3>
+            <h3 className="text-base font-normal">Cookies</h3>
             <div className="flex items-center justify-center space-x-2">
               <button
                 onClick={decreaseCount}
-                className="bg-gray-300 text-gray-700 text-xs px-2 py-1 rounded"
+                className="bg-gray-300 text-gray-700 text-base px-2 py-1 rounded"
               >
                 -
               </button>
-              <span className="px-3 py-1 bg-gray-100 text-xs rounded">{cookieCount}</span>
+              <span className="px-3 py-1 bg-gray-100 text-base rounded">{cookieCount}</span>
               <button
                 onClick={increaseCount}
-                className="bg-gray-300 text-gray-700 text-xs px-2 py-1 rounded"
+                className="bg-gray-300 text-gray-700 text-base px-2 py-1 rounded"
               >
                 +
               </button>
             </div>
           </div>
           <div className="text-center ">
-            <h3 className="text-sm font-normal">Total</h3>
-            <p className="text-xs">1 hr + 40 min</p>
+            <h3 className="text-base font-normal">Total</h3>
+            <p className="text-base">1 hr + 40 min</p>
           </div>
           <div className="text-center">
-            <h3 className="text-sm font-normal">Prep</h3>
-            <p className="text-xs">10 min</p>
+            <h3 className="text-base font-normal">Prep</h3>
+            <p className="text-base">10 min</p>
           </div>
           <div className="text-center">
-            <h3 className="text-sm font-normal">Cook</h3>
-            <p className="text-xs">30 min</p>
+            <h3 className="text-base font-normal">Cook</h3>
+            <p className="text-base">30 min</p>
           </div>
           <div className="text-center">
-            <h3 className="text-sm font-normal">Cool</h3>
-            <p className="text-xs">1 hr</p>
+            <h3 className="text-base font-normal">Cool</h3>
+            <p className="text-base">1 hr</p>
           </div>
         </div>
 
@@ -109,16 +109,16 @@ const time= '35 min'
  
     <IngredientsSection></IngredientsSection>
     <div className="flex flex-col sticky self-start w-fit left-[15%] top-20 mr-6">
-  <a href="#" className="text-gray-600 text-sm hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base hover:text-gray-800 py-2">
     <FaFacebookF className="w-4 h-4" />
   </a>
-  <a href="#" className="text-gray-600 text-sm hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base hover:text-gray-800 py-2">
     <FaPinterestP className="w-4 h-4" />
   </a>
-  <a href="#" className="text-gray-600 text-sm hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base hover:text-gray-800 py-2">
     <FaEnvelope className="w-4 h-4" />
   </a>
-  <a href="#" className="text-gray-600 text-sm hover:text-gray-800 py-2">
+  <a href="#" className="text-gray-600 text-base hover:text-gray-800 py-2">
     <FaPrint className="w-4 h-4" />
   </a>
 </div>

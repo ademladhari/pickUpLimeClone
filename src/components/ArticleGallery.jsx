@@ -9,7 +9,7 @@ const ArticleCard = ({ image, title, time, tags,linkTo }) => {
         <div className="w-[100%] mx-auto h-[150px]  lg:w-full relative overflow-hidden rounded-xl">
         <a
   className=''
-  href={linkTo}
+  href="/articleDetails"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -28,7 +28,7 @@ const ArticleCard = ({ image, title, time, tags,linkTo }) => {
           <div className="text-lg mb-1">{title}</div>
           <div className="flex flex-wrap mt-1 mx-auto">
             {/* Time Tag */}
-            <span className="inline-block bg-[#B04C35] rounded-md h-fit px-2 py-0.5 text-[0.5rem] font-semibold text-white mr-1">
+            <span className="inline-block bg-[#B04C35] rounded-md h-fit px-2 py-0.5 text-[0.8rem] font-semibold text-white mr-1">
               <FaClock className="inline-block mr-1" />
               {time}
             </span>
@@ -36,7 +36,7 @@ const ArticleCard = ({ image, title, time, tags,linkTo }) => {
             {tags.map((tag, index) => (
               <span
                 key={index}
-                className="inline-block bg-[#50684B] rounded-md px-2 h-fit py-0.5 text-[0.5rem] font-semibold text-white mr-1 mb-1"
+                className="inline-block bg-[#50684B] rounded-md px-2 h-fit py-0.5 text-[0.8rem] font-semibold text-white mr-1 mb-1"
               >
                 {tag}
               </span>
@@ -335,11 +335,12 @@ const ArticleGallery = ({linkTo}) => {
   const indexOfFirstRecipe = indexOfLastRecipe - itemsPerPage;
   const currentRecipes = articles.slice(indexOfFirstRecipe, indexOfLastRecipe);
 
+
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-[90%] mt-[4vh]  mx-auto ">
         {currentRecipes.map((recipe, index) => (
-          <ArticleCard key={index} {...recipe} linkTo={linkTo} />
+          <ArticleCard key={index} {...recipe} time={Math.floor(Math.random() * 101)} linkTo={linkTo} />
         ))}
       </div>
       <Pagination 

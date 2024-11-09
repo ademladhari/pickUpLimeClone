@@ -13,8 +13,8 @@ function RecipeSection() {
         <div className='flex-col flex sticky top-9 self-start'>
         <h2 className="text-2xl font-normal">Ingredients</h2>
         <div>
-          <h3 className="text-sm font-medium mb-2">Chocolate chunk cookies</h3>
-          <ul className="text-xs">
+          <h3 className="text-base font-medium mb-2">Chocolate chunk cookies</h3>
+          <ul className="text-base">
             <li>½ cup (112 g) unsalted vegan butter†</li>
             <li>¾ cup (165 g) brown sugar, packed</li>
             <li>¼ cup (56 g) granulated sugar</li>
@@ -32,13 +32,13 @@ function RecipeSection() {
           <h3 className="text-lg font-normal" style={{ fontWeight: 400 }}>
             Optional topping
           </h3>
-          <p className="text-xs ml-3 mb-5">flaked sea salt</p>
+          <p className="text-base ml-3 mb-5">flaked sea salt</p>
         </div>
 
         {/* Get Ingredients Button */}
         <a
           href="#"
-          className="bg-[#003D29] text-white px-4 py-2 text-xs w-fit rounded-full mx-auto inline-block mt-4"
+          className="bg-[#003D29] text-white px-4 py-2 text-base w-fit rounded-full mx-auto inline-block mt-4"
         >
           Get ingredients with Instacart
         </a>
@@ -51,7 +51,7 @@ function RecipeSection() {
         style={{ fontFamily: "'Crimson Pro', serif", fontWeight: 300 }}
       >
         <h2 className="text-xl font-medium cotrisFont">Directions</h2>
-        <ol className="text-sm space-y-2 list-decimal list-inside w-[90%]">
+        <ol className="text-base space-y-2 list-decimal list-inside w-[90%]">
           <li>
             Add the butter to a saucepan over medium-high heat*. Let it melt
             while stirring continuously.
@@ -102,7 +102,7 @@ function RecipeSection() {
 
         {/* Notes Section */}
         <h3 className="text-lg font-semibold crimsonFont">Notes</h3>
-        <ul className="text-sm list-disc list-inside w-[90%]">
+        <ul className="text-base list-disc list-inside w-[90%]">
           <li>† We used the Violife brand.</li>
           <li>
             * Note: The ability to brown vegan butter depends on the brand, as
@@ -122,7 +122,7 @@ function RecipeSection() {
 
         {/* Storage Section */}
         <h3 className="text-lg font-semibold crimsonFont">Storage</h3>
-        <ul className="text-sm list-disc list-inside w-[90%]">
+        <ul className="text-base list-disc list-inside w-[90%]">
           <li>
             For the best taste and texture, enjoy these cookies within the first
             2 - 3 days after baking. Store them in an airtight container at room
@@ -141,7 +141,7 @@ function RecipeSection() {
         </ul>
         <div className="flex flex-col items-center space-y-4 mt-8">
       {/* Print Button */}
-      <button className="bg-[#607052] text-white px-3 py-1.5 rounded-md text-xs">
+      <button className="bg-[#607052] text-white px-3 py-1.5 rounded-md text-base">
         Print
       </button>
 
