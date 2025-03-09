@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 const ArticleCard = ({ image, title, time, tags,linkTo }) => {
     return (
-      <div className="max-w-sm rounded overflow-hidden mx-auto h-[100%] w-[95%] bg-white">
+      <div className="max-w-sm rounded overflow-hidden mx-auto h-[100%] w-[95%] bg-[#efefef]">
         <div className="w-[100%] mx-auto h-[150px]  lg:w-full relative overflow-hidden rounded-xl">
         <a
   className=''
-  href="/articleDetails"
+  href={linkTo}
   target="_blank"
   rel="noopener noreferrer"
 >

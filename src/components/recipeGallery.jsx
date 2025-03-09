@@ -4,7 +4,7 @@ import Pagination from './pagination';
 
 const RecipeCard = ({ image, title, time, tags }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden mx-auto w-[90%]  bg-white">
+    <div className="max-w-sm rounded overflow-hidden mx-auto w-[90%]  ">
       <div className="aspect-[2/3] w-[60%] mx-auto lg:w-full relative overflow-hidden rounded-xl">
       <a href='/recipeDetails'>
       <img 

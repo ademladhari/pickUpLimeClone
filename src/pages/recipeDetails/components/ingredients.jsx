@@ -3,7 +3,7 @@ import StarRating from './StarRating';
 
 function RecipeSection() {
   return (
-    <div className="relative flex mx-auto  w-[70%] p-8 rounded-lg cotrisFont">
+    <div className="relative flex mx-auto   w-[70%] p-8 rounded-lg cotrisFont">
       {/* Social Icons Section */}
       
       

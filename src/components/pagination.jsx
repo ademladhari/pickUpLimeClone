@@ -12,14 +12,14 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     <div className="flex items-center justify-center mt-10 mb-[10%] ">
       <span className="text-gray-700 mr-2">Page</span>
       <button 
-        className="mx-1 px-2 py-1 text-gray-700"
+        className="mx-1 px-2 py-1 text-gray-700 bg-[#efefef]"
         onClick={() => handlePageClick(1)}
         disabled={currentPage === 1}
       >
         {"<<"}
       </button>
       <button 
-        className="mx-1 px-2 py-1 text-gray-700"
+        className="mx-1 px-2 py-1 text-gray-700 bg-[#efefef]"
         onClick={() => handlePageClick(currentPage - 1)}
         disabled={currentPage === 1}
       >
@@ -33,7 +33,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <span className="text-gray-700">of {totalPages}</span>
       
       <button 
-        className="mx-1 px-2 py-1 text-gray-700"
+        className="mx-1 px-2 py-1 text-gray-700 bg-[#efefef]"
         onClick={() => handlePageClick(currentPage + 1)}
         disabled={currentPage === totalPages}
       >
@@ -41,7 +41,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       </button>
       
       <button 
-        className="mx-1 px-2 py-1 text-gray-700"
+        className="mx-1 px-2 py-1 text-gray-700 bg-[#efefef]"
         onClick={() => handlePageClick(totalPages)}
         disabled={currentPage === totalPages}
       >

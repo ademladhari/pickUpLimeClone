@@ -34,7 +34,7 @@ const Home = (name) => {
                 className="w-full outline-none text-gray-700 placeholder-gray-400"
                 placeholder="Search recipes"
               />
-              <button className="text-gray-500 p-2 pr-0">
+              <button className="text-gray-500 bg-white p-2 pr-0">
                 <IoIosSearch />
               </button>
             </div>

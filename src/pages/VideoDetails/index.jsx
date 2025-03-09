@@ -73,9 +73,7 @@ const Index = () => {
        
         <FeaturedRecipe>
         </FeaturedRecipe>
-        <div className='pt-16'>
-        <KitchenStaples ></KitchenStaples>
-        </div>
+        
         <ForCreators></ForCreators>
         <Footer></Footer>
 

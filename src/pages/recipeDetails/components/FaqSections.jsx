@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "Do I have to brown the vegan butter?",
     answer:
-      "Browning vegan butter enhances its flavor by adding a nutty depth, but it's not essential. If you skip it, the flavor will be a bit lighter, but the cookies will still taste great."
+      "Browning vegan butter enhances its flavor by adding a nutty  depth, but it's not essential. If you skip it, the flavor will be a bit lighter, but the cookies will still taste great."
   },
   {
     question: "Can I use coconut oil instead of vegan butter?",
